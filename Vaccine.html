@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Covid News</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link href="css/Styles.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light "> <a class="navbar-brand" href="./index.html"><img
+                src="images/logo.png"></a> <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"> <a class="nav-link" href="#">Home <span
+                            class="sr-only">(current)</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Stay safe</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Cases Update</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Vaccine</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">About us</a> </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <script async src="https://cse.google.com/cse.js?cx=fce093cc4ddcb0fce"></script>
+                <div class="gcse-search"></div>
+            </form>
+        </div>
+    </nav>
+   
+
+    
+
+    <img src="images/Background.png" height="300" width="324" style="float:right">
+    <div class="jumbotron">
+
+        <h3 class="display-4">Stay Informed About COVID-19</h3>
+
+        <p class="lead">
+
+            COVID-19 affects different people in different ways. Most infected people will develop mild to moderate
+            illness and recover without hospitalization.</p>
+        <p><a class="btn btn-lg btn-info align-self" style="align-self: flex-start;" href="#" role="button"
+                data-toggle="modal" data-target="#SubscModal">Subscribe
+                for daily updates</a></p>
+
+    </div>
+
+    <div id="SubscModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Subscription </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times</button>
+                </div>
+                <div class="modal-body">
+                    <p>If you want to subscribe to daily update notification , please fill in the forn below</p>
+                    <form id="myForm">
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                            </div>
+                            <input name="" class="form-control" placeholder="Full name" type="text">
+                        </div>
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                            </div>
+                            <input name="email"  class="form-control" placeholder="Email address"
+                                type="email">
+                        </div>
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+                            </div>
+                            <select class="custom-select" style="max-width: 120px;">
+                                <option selected="">+30</option>
+                                <option value="3">+32</option>
+                                <option value="2">+33</option>
+                                <option value="1">+49</option>
+
+
+
+                            </select>
+                            <input name="" class="form-control" placeholder="Phone number" type="text">
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel
+                            </button>
+                            <button type="submit" class="btn btn-primary btn-sm">
+                                Subscribe
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("myForm").addEventListener("submit", myFunction);
+        
+        function myFunction() {
+          alert("The form was submitted");
+        }
+        </script>
+
+    <div class="container ">
+<hr>
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="Images/Covid.png" alt="Generic placeholder image" width="340"
+                    height="340">
+                <h2>What is Covid-19 ?</h2>
+
+                <p> It ss a contagious disease caused by severe acute respiratory syndrome coronavirus 2
+                    (SARS-CoV-2).<br>
+                    The
+                    first case was identified in Wuhan, China, in December 2019. It has since spread worldwide, leading
+                    to an ongoing pandemic.</p>
+                <br>
+                <p><a class="btn btn-secondary" href="https://www.who.int/health-topics/coronavirus#tab=tab_1"
+                        role="button" target="_blank">Read more »</a></p>
+            </div>
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="Images/Covid 2.png" alt="Generic placeholder image" width="340"
+                    height="340">
+                <h2>Covid-19 effects ?</h2>
+                <p>Its impact has been broad, affecting general society, economy, culture, ecology, politics, and other
+                    areas.</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p><a class="btn btn-secondary"
+                        href="https://www.who.int/news/item/13-10-2020-impact-of-covid-19-on-people's-livelihoods-their-health-and-our-food-systems"
+                        role="button" target="_blank">Read more »</a></p>
+            </div>
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="Images/Covid 3.png" alt="Generic placeholder image" width="340"
+                    height="340">
+                <h2>Covid-19 Symptoms ?</h2>
+                <p>Symptoms of COVID-19 are variable, ranging from mild symptoms to severe illness. Common symptoms
+                    include fever, cough, fatigue, breathing difficulties, and loss of smell and taste. People with the
+                    same infection may have different symptoms, and their symptoms may change over time.</p>
+                <p><a class="btn btn-secondary" href="https://www.who.int/health-topics/coronavirus#tab=tab_1"
+                        role="button" target="_blank">Read more »</a></p>
+
+            </div>
+
+        </div>
+        <hr>
+    </div>
+
+
+
+    <div class="container2 bg-light  ">
+
+        <div class="row">
+            <div class="col-lg-4">
+                <iframe src="https://www.youtube.com/embed/qHksVwOrpbE" width="460" height="315" frameborder="6"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6" style="align-items: center;">
+                <br>
+
+                <hr>
+                <p>The World Health Organization has long warned of the potential of disease outbreaks and
+                    pandemics to threaten the health of people all over the world, and for the need for countries to be
+                    prepared to respond. And from capturing on 31 December 2019 the initial reporting of a cluster of
+                    pneumonia cases in Wuhan, China, to now, WHO has been responding rapidly, working closely in
+                    solidarity with and in support of governments around the world, to help countries, communities and
+                    individuals
+                    fight what is today known as the COVID-19 pandemic.</p>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <section id="footer">
+
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <hr>
+                        <h5>Internal links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="https://www.fiverr.com/share/qb8D02">Home</a></li>
+                            <li><a href="https://www.fiverr.com/share/qb8D02">Stay safe</a></li>
+                            <li><a href="https://www.fiverr.com/share/qb8D02">Cases Update</a></li>
+                            <li><a href="https://www.fiverr.com/share/qb8D02">Vaccine</a></li>
+                            <li><a href="https://www.fiverr.com/share/qb8D02">About us</a></li>
+                        </ul>
+                        <hr>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <hr>
+                        <h5>Ressources links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="https://coronavirus.jhu.edu/" target="_blank">Johns Hopkins University
+                                    Coronavirus Resource Center</a></li>
+                            <li><a href="https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/"
+                                    target="_blank">IDSA - COVID-19 Treatment Guidelines</a></li>
+                            <li><a href="https://www.covid19treatmentguidelines.nih.gov" target="_blank">NIH - COVID-19
+                                    Treatment Guidelines</a></li>
+
+                        </ul>
+                        <br>
+
+                        <hr>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <hr>
+                        <h5>Covid-19: Information links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+                                    target="_blank">World
+                                    Health Organization</a></li>
+                            <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">Centers
+                                    for
+                                    Disease Control and Prevention</a></li>
+                            <li><a href="https://www.oecd.org/coronavirus/en/" target="_blank">OECD: Coronavirus policy
+                                    reponses
+                                    hub</a></li>
+
+                        </ul>
+                        <br><br>
+                        <hr>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+" target="_blank">
+                        <i class="fa fa-google-plus"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="
+                        target="_blank">
+                        <i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/" target="_blank">
+                        <i class="fa fa-linkedin"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/" target="_blank">
+                        <i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/" target="_blank">
+                        <i class="fa fa-youtube"></i></a>
+                    <a class="btn btn-social-icon" href="mailto:">
+                        <i class="fa fa-envelope-o"></i></a>
+
+                    <hr>
+                </div>
+
+
+            </div>
+
+        </section>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
